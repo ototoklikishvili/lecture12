@@ -1,0 +1,283 @@
+header {
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.goflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+li a {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.s1 {
+    height: 606px;
+    background-image: url("../images/sea.jpg");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 84px;
+}
+.s2 {
+    margin-bottom: 100%;
+
+}
+
+
+.infowrapper {
+    
+    width: 235px;
+}
+
+.goflex2 {
+    display: flex;
+    gap: 50px;
+}
+
+
+.textwrapper {
+
+}
+.textwrapper h1 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 79px;
+    font-style: normal;     
+    font-weight: 700;
+    line-height: normal;  
+    margin-bottom: 31px;  
+    text-align: center;   
+}
+.textwrapper h4 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.infowrapper h3 {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.infowrapper h2 {
+    color: #010101;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-bottom: 37px
+}
+
+.infowrapper p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardswrapper {
+    
+    max-width: 924px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 56px;
+    column-gap: 10px;
+}
+
+.card {
+    width: 286px;
+    
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 23px;
+}
+.card h3 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card2 h3 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card2 p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card2 {
+    width: 286px;
+    
+}
+
+.card3 h3 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card3 p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card3 {
+    width: 286px;
+    
+}
+
+
+
+.card4 h3 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card4 p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card4 {
+    width: 286px;
+    
+}
+
+
+
+.card5 h3 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card5 p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card5 {
+    width: 286px;
+    
+}
+
+
+
+
+.card6 h3 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card6 p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card6 {
+    width: 286px;
+    
+}
+
+
